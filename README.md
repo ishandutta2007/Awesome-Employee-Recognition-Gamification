@@ -3,7 +3,7 @@
 <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/ishandutta2007/Awesome-Employee-Recognition-Gamification/pulls)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Employee-Recognition-Gamification?style=flat-square&color=white)](https://github.com/ishandutta2007/Awesome-Employee-Recognition-Gamification/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Employee-Recognition-Gamification?style=flat-square&color=white)](https://github.com/ishandutta2007/Awesome-Employee-Recognition-Gamification/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/ishandutta2007/Awesome-Employee-Recognition-Gamification?style=flat-square&color=white)](https://github.com/ishandutta2007/Awesome-Employee-Recognition-Gamification/network/members)
 <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
@@ -81,7 +81,7 @@ The global employee recognition and engagement software market is estimated at a
 
 *Ranked in descending order by GitHub stargazers count.*
 
-| Project | Stars | Tech Stack | Highlights & Description |
+| Project | GitHub_Stars | Tech Stack | Highlights & Description |
 |:---|:---:|:---|:---|
 | **[ActiDoo/gamification-engine](https://github.com/ActiDoo/gamification-engine)** | [![Stars](https://img.shields.io/github/stars/ActiDoo/gamification-engine?style=social&color=white)](https://github.com/ActiDoo/gamification-engine/stargazers) | Python / REST API | **High-performance gamification rules engine (`gengine`).** Powers customizable points, achievement levels, time-based quests, and leaderboards via clean REST endpoints for arbitrary business applications. |
 | **[Meeds-io/meeds](https://github.com/Meeds-io/meeds)** | [![Stars](https://img.shields.io/github/stars/Meeds-io/meeds?style=social&color=white)](https://github.com/Meeds-io/meeds/stargazers) | Java / Vue.js / Docker | **Decentralized employee engagement and recognition platform.** Complete workspace suite featuring peer-to-peer kudos, automated engagement points, challenge management, and tokenized community rewards. |
