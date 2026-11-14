@@ -15,23 +15,28 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 Contributions welcome! Open an PR to add/update entries. Keep descriptions factual and link to official sites.
 
 ## Table of Contents
-- [SaaS/Hosted Platforms](#saas-products)
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [SaaS/Hosted Platforms](#saas-hosted-platforms)
 - [Open-Source GitHub Projects](#open-source-github-projects)
 - [How to Contribute](#how-to-contribute)
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
+
+The global employee recognition and engagement software market is estimated at approximately **$20 billion to $40+ billion**, expanding at a 6%–9% CAGR driven by distributed workforces and retention pressures. The sector is **moderately fragmented** overall, sustained by numerous nimble point solutions for SMEs and peer rewards; however, enterprise demand and extensive HRIS/ecosystem bundling are driving steady consolidation toward mega-suites and category leaders.
+
 ## SaaS/Hosted Platforms
 
-| Product | Description | Pricing (Starting) | Free Tier / Trial Limits |
-|---------|-------------|-------------------|--------------------------|
-| **[Bonusly](https://bonus.ly/)** | **The most transparent recognition platform.** Peer-to-peer kudos with points tied to core values. **Free plan: up to 8 users** with Slack/Teams integration and mobile apps. Team plan ($5/user/month or $50/user/year with Bizy AI) adds unlimited users, HRIS integrations, and advanced analytics. Rewards billed separately at face value—no markup . | Free: **$0** (8 users); Team: **$5/user/month** (or $3 without Bizy); Organization: custom | **Free forever**: up to 8 users, peer recognition, Slack/Teams, mobile apps; **30-day Team/Org trial** |
-| **[Kudos](https://www.kudos.com/)** | Employee recognition and engagement platform. Combines recognition tied to company values, milestone celebrations, awards/nominations, and analytics. Gamified goals and peer prompts encourage participation. Multilingual support (11 languages) . | Starting price: **$3.25** (SourceForge listing)  | Free trial available; no permanent free tier |
-| **[Matter](https://matterapp.com/)** | Recognition, celebrations, and rewards **inside Slack or Microsoft Teams**. Users praise ease of use, card variety, and charity donation option. Some find initial setup and meme-creation features challenging . | Custom pricing | **Free trial** available |
-| **[Zoho Motivator](https://www.zoho.com/motivator/)** | Sales performance tracking and gamification within Zoho CRM. Scorecards, contests, and TV dashboards. **Free: up to 5 users**. Paid user packs add unlimited contests, custom dashboards, and team scorecards . | Free: **$0** (5 users); Paid user packs available  | **Free**: up to 5 users, basic dashboards, 1 contest; **15-day trial** |
-| **[Awardco](https://www.awardco.com/)** | Recognition and rewards platform with a large reward catalog. Positioned for enterprises wanting Amazon-integrated rewards and service awards. | Quote-only | No free tier; demo via sales |
-| **[Guusto](https://www.guusto.com/)** | Recognition and rewards platform popular in Canada. Focuses on peer-to-peer recognition and gift card rewards. | Quote-only | Free trial available |
-| **[Motivosity](https://www.motivosity.com/)** | Recognition and engagement platform with "Thanks Bucks" and manager insights. Positioned for mid-market companies. | Quote-only | No free tier; demo via sales |
-| **[WorkTango](https://www.worktango.com/)** | Employee experience platform combining recognition, surveys, and goals. | Quote-only | No free tier; demo via sales |
+| Product | Scale (Valuation / Revenue) | Description | Pricing (Starting) | Free Tier / Trial Limits |
+|---------|-----------------------------|-------------|-------------------|--------------------------|
+| **[Zoho Motivator / CRM Gamescope](https://www.zoho.com/motivator/)** | **~$12.5B** valuation / **~$1.5B** revenue (FY25) | Sales performance tracking and gamification within Zoho CRM. Scorecards, contests, and TV dashboards (standalone sunsetted into Zoho CRM/Plus). | Paid tiers from **$14/user/month** (Zoho CRM Standard, billed annually) or **$60/month** (legacy Motivator pack) | **Free forever plan**: up to 3 users (Zoho CRM) or 5 users (legacy Motivator); **15-day free trial** on paid editions |
+| **[Awardco](https://www.awardco.com/)** | **$1B+** valuation / **~$75.2M** ARR | Recognition and rewards platform with Amazon Business integration and zero-markup reward redemption. | Starter bundles from **$3,000/year** (~$250/month) for small teams (up to 100 users) | **No free tier or trial**; demo via sales |
+| **[Bonusly](https://bonus.ly/)** | **~$100M–$250M** valuation / **~$14M** ARR | Peer-to-peer kudos tied to core values with cash-equivalent rewards and Bizy AI integration. | Core plan from **$3/user/month** (billed annually) or **$5/user/month** with Bizy AI | **Free forever plan**: up to 8 users with Slack/Teams integration; **30-day free trial** for Team/Org tiers |
+| **[Motivosity](https://www.motivosity.com/)** | Bootstrapped / **~$16.9M** ARR | Recognition and engagement platform with "Thanks Bucks", peer social feed, and manager 1-on-1 insights. | Base bundle from **$2/user/month** ($3,000 annual minimum commitment) | **No free tier or trial**; guided product walkthrough demo only |
+| **[WorkTango](https://www.worktango.com/)** | Acquired by BI WORLDWIDE (backed by PE) / **~$10M+** ARR est. | Holistic employee experience platform combining peer kudos, pulse surveys, and goal management. | Platform bundles from **$3/user/month** (subject to 12-month minimum contract) | **No free tier or trial**; custom enterprise demo and POC preview only |
+| **[Kudos](https://www.kudos.com/)** | **~$17.7M** funding raised / **~$8.8M** ARR | Values-aligned recognition platform featuring recognition levels, milestone celebrations, and analytics across 11 languages. | Base subscription from **$3.25/user/month** (annual contract required) | **No free tier or trial**; guided demo via sales |
+| **[Guusto](https://www.guusto.com/)** | Bootstrapped / **~$6.6M** ARR | Canadian recognition and rewards platform focusing on flexible merchant gift cards without markup. | **$125/month** (Lite plan: 1 Sender + 250 Recipients) or **$4/sender/month + $0.70/recipient/month** (Essential plan) | **Free forever plan**: 1 user account for single-order gift card sending; no expiring trial needed |
+| **[Matter](https://matterapp.com/)** | Bootstrapped / **~$1M** ARR | Slack and Microsoft Teams native recognition platform featuring Kudos cards and Feedback Friday. | Basic plan from **$1/user/month** (billed annually) or **$2/user/month** (billed monthly) | **Free forever plan**: unlimited users for core kudos and Friday feedback; **14-day free trial** with full Pro access (no credit card required) |
 
 ## Open-Source GitHub Projects
 
