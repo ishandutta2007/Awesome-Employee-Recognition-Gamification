@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#080c14" />
+    </linearGradient>
+
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+
+    <linearGradient id="orbGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="orbGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="0.7" stroke-opacity="0.3" />
+    </pattern>
+
+    <!-- Drop Shadows -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes pulseOrb {
+      0%, 100% { transform: scale(1) translate(0, 0); opacity: 0.6; }
+      50% { transform: scale(1.15) translate(-20px, 15px); opacity: 0.9; }
+    }
+    @keyframes floatParticle {
+      0% { transform: translateY(0px) rotate(0deg); opacity: 0.3; }
+      50% { transform: translateY(-25px) rotate(180deg); opacity: 0.8; }
+      100% { transform: translateY(0px) rotate(360deg); opacity: 0.3; }
+    }
+    @keyframes badgeGlow {
+      0%, 100% { stroke-opacity: 0.3; stroke: #38bdf8; }
+      50% { stroke-opacity: 0.9; stroke: #c084fc; }
+    }
+    @keyframes radarWave {
+      0% { r: 10; opacity: 0.8; }
+      100% { r: 90; opacity: 0; }
+    }
+    .orb-1 { animation: pulseOrb 8s ease-in-out infinite; transform-origin: 200px 100px; }
+    .orb-2 { animation: pulseOrb 10s ease-in-out infinite reverse; transform-origin: 1000px 300px; }
+    .p-1 { animation: floatParticle 6s ease-in-out infinite; }
+    .p-2 { animation: floatParticle 8s ease-in-out infinite 1s; }
+    .p-3 { animation: floatParticle 7s ease-in-out infinite 2s; }
+    .p-4 { animation: floatParticle 9s ease-in-out infinite 3s; }
+    .badge-card { animation: badgeGlow 4s ease-in-out infinite; }
+    .wave-1 { animation: radarWave 3s ease-out infinite; }
+    .wave-2 { animation: radarWave 3s ease-out infinite 1.5s; }
+  </style>
+
+  <!-- Deep Background -->
+  <rect width="1200" height="420" fill="url(#bgGrad)" />
+
+  <!-- Animated Glowing Orbs (in background) -->
+  <circle class="orb-1" cx="220" cy="120" r="180" fill="url(#orbGrad1)" />
+  <circle class="orb-2" cx="1020" cy="300" r="220" fill="url(#orbGrad2)" />
+
+  <!-- Grid Overlay -->
+  <rect width="1200" height="420" fill="url(#grid)" />
+
+  <!-- Subtle Dynamic Radar / Pulse Rings on Sides (Strictly Background) -->
+  <g transform="translate(100, 320)">
+    <circle class="wave-1" cx="0" cy="0" r="10" fill="none" stroke="#6366f1" stroke-width="1.5" />
+    <circle class="wave-2" cx="0" cy="0" r="10" fill="none" stroke="#38bdf8" stroke-width="1.5" />
+    <circle cx="0" cy="0" r="5" fill="#818cf8" />
+  </g>
+  <g transform="translate(1100, 100)">
+    <circle class="wave-1" cx="0" cy="0" r="10" fill="none" stroke="#ec4899" stroke-width="1.5" />
+    <circle class="wave-2" cx="0" cy="0" r="10" fill="none" stroke="#f59e0b" stroke-width="1.5" />
+    <circle cx="0" cy="0" r="5" fill="#f43f5e" />
+  </g>
+
+  <!-- Floating Ambient Particles (Constrained to margins) -->
+  <g class="p-1" transform="translate(120, 80)">
+    <polygon points="0,-8 7,5 -7,5" fill="#38bdf8" opacity="0.6" />
+  </g>
+  <g class="p-2" transform="translate(1060, 220)">
+    <circle cx="0" cy="0" r="5" fill="#c084fc" opacity="0.6" />
+  </g>
+  <g class="p-3" transform="translate(80, 220)">
+    <rect x="-4" y="-4" width="8" height="8" rx="2" fill="#f59e0b" opacity="0.6" transform="rotate(45)" />
+  </g>
+  <g class="p-4" transform="translate(1120, 320)">
+    <polygon points="0,-7 6,5 -6,5" fill="#10b981" opacity="0.5" />
+  </g>
+
+  <!-- Foreground Content: Fully Legible, Unobstructed -->
+
+  <!-- Top Pill / Category Tag -->
+  <g transform="translate(600, 68)">
+    <rect class="badge-card" x="-185" y="-18" width="370" height="36" rx="18" fill="#1e293b" fill-opacity="0.9" stroke="#38bdf8" stroke-width="1.5" />
+    <text text-anchor="middle" y="5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#38bdf8" letter-spacing="1.5">
+      ✨ CURATED ECOSYSTEM &amp; RECOGNITION GUIDE
+    </text>
+  </g>
+
+  <!-- Main Title -->
+  <text text-anchor="middle" x="600" y="148" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="44" font-weight="900" fill="url(#titleGrad)" filter="url(#glow)" letter-spacing="-0.5">
+    Employee Recognition &amp; Gamification
+  </text>
+
+  <!-- Subtitle -->
+  <text text-anchor="middle" x="600" y="200" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="500" fill="#94a3b8">
+    Peer-to-Peer Kudos • Points &amp; Rewards • Badges &amp; Leaderboards • Culture Analytics
+  </text>
+
+  <!-- Tagline / Secondary Description -->
+  <text text-anchor="middle" x="600" y="235" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#64748b">
+    The ultimate curated collection of top SaaS platforms and active open-source repositories
+  </text>
+
+  <!-- Bottom Feature Badges / Highlights (Foreground) -->
+  <g transform="translate(600, 310)">
+    <!-- Pill 1 -->
+    <g transform="translate(-360, 0)">
+      <rect x="-95" y="-22" width="190" height="44" rx="22" fill="#1e293b" stroke="#334155" stroke-width="1.2" />
+      <text text-anchor="middle" y="5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#f8fafc">
+        🏆 Peer-to-Peer Kudos
+      </text>
+    </g>
+
+    <!-- Pill 2 -->
+    <g transform="translate(-120, 0)">
+      <rect x="-95" y="-22" width="190" height="44" rx="22" fill="#1e293b" stroke="#334155" stroke-width="1.2" />
+      <text text-anchor="middle" y="5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#f8fafc">
+        🎮 PBML Game Engines
+      </text>
+    </g>
+
+    <!-- Pill 3 -->
+    <g transform="translate(120, 0)">
+      <rect x="-95" y="-22" width="190" height="44" rx="22" fill="#1e293b" stroke="#334155" stroke-width="1.2" />
+      <text text-anchor="middle" y="5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#f8fafc">
+        💰 Transparent Pricing
+      </text>
+    </g>
+
+    <!-- Pill 4 -->
+    <g transform="translate(360, 0)">
+      <rect x="-95" y="-22" width="190" height="44" rx="22" fill="#1e293b" stroke="#334155" stroke-width="1.2" />
+      <text text-anchor="middle" y="5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#f8fafc">
+        🔓 Open-Source &amp; Self-Host
+      </text>
+    </g>
+  </g>
+
+  <!-- Subtle bottom border line -->
+  <line x1="200" y1="385" x2="1000" y2="385" stroke="url(#titleGrad)" stroke-width="2" stroke-opacity="0.4" />
+</svg>
