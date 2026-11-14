@@ -1,6 +1,6 @@
 # Awesome-Employee-Recognition-Gamification
 
-# Top Employee Recognition & Gamification Ecosystem
+## Top Employee Recognition & Gamification Ecosystem
 
 **Curated List of SaaS Platforms & Open-Source GitHub Projects**  
 *Focused on Peer-to-Peer Kudos, Points-Based Rewards & Culture Analytics*  
